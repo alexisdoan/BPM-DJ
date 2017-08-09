@@ -12,6 +12,8 @@
 		DC36F9161ECB1C410018DFAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC36F9141ECB1C410018DFAA /* Main.storyboard */; };
 		DC36F9181ECB1C410018DFAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC36F9171ECB1C410018DFAA /* Assets.xcassets */; };
 		DC36F91B1ECB1C410018DFAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC36F9191ECB1C410018DFAA /* LaunchScreen.storyboard */; };
+		DCCCC2291ECDB35400616BE8 /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCCC2281ECDB35400616BE8 /* IntroViewController.swift */; };
+		DCCCC22B1ECDB8EA00616BE8 /* launch.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = DCCCC22A1ECDB8EA00616BE8 /* launch.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		DC36F9171ECB1C410018DFAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DC36F91A1ECB1C410018DFAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DC36F91C1ECB1C410018DFAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCCCC2281ECDB35400616BE8 /* IntroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
+		DCCCC22A1ECDB8EA00616BE8 /* launch.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = launch.jpeg; path = ../../../Pictures/launch.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +42,7 @@
 		DC36F9041ECB1C410018DFAA = {
 			isa = PBXGroup;
 			children = (
+				DCCCC22A1ECDB8EA00616BE8 /* launch.jpeg */,
 				DC36F90F1ECB1C410018DFAA /* BPM */,
 				DC36F90E1ECB1C410018DFAA /* Products */,
 			);
@@ -60,6 +65,7 @@
 				DC36F9171ECB1C410018DFAA /* Assets.xcassets */,
 				DC36F9191ECB1C410018DFAA /* LaunchScreen.storyboard */,
 				DC36F91C1ECB1C410018DFAA /* Info.plist */,
+				DCCCC2281ECDB35400616BE8 /* IntroViewController.swift */,
 			);
 			path = BPM;
 			sourceTree = "<group>";
@@ -96,6 +102,7 @@
 				TargetAttributes = {
 					DC36F90C1ECB1C410018DFAA = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 6P5896JTQC;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -125,6 +132,7 @@
 			files = (
 				DC36F91B1ECB1C410018DFAA /* LaunchScreen.storyboard in Resources */,
 				DC36F9181ECB1C410018DFAA /* Assets.xcassets in Resources */,
+				DCCCC22B1ECDB8EA00616BE8 /* launch.jpeg in Resources */,
 				DC36F9161ECB1C410018DFAA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -136,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCCCC2291ECDB35400616BE8 /* IntroViewController.swift in Sources */,
 				DC36F9131ECB1C410018DFAA /* ViewController.swift in Sources */,
 				DC36F9111ECB1C410018DFAA /* AppDelegate.swift in Sources */,
 			);
@@ -262,7 +271,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6P5896JTQC;
 				INFOPLIST_FILE = BPM/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.meshine.BPM;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -274,7 +285,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6P5896JTQC;
 				INFOPLIST_FILE = BPM/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.meshine.BPM;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -301,6 +314,7 @@
 				DC36F9211ECB1C410018DFAA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
